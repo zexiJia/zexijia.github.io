@@ -1,22 +1,36 @@
 ---
-title:          "Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac"
-date:           2024-05-12 00:01:00 +0800
-selected:       false
-pub:            "International Conference on Machine Learning (ICML)"
-# pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+title:          "Finger Recovery Transformer: Toward Better Incomplete Fingerprint Identification"
+date:           2024-12-01 00:01:00 +0800
+selected:       true
+
+pub:            "IEEE Transactions on Information Forensics and Security (TIFS)"
 pub_date:       "2024"
-semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
+pub_last:       ' <span class="badge badge-pill badge-publication badge-primary">Journal</span>'
+
+# semantic_scholar_id: xxxx   # 有需要再填真实 ID
+
 abstract: >-
-  Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
-cover:          /assets/images/covers/cover3.jpg
+  We propose Finger Recovery Transformer (FingerRT), a transformer-based framework
+  specifically designed for incomplete fingerprint identification. FingerRT combines
+  fingerprint enhancement networks with a two-stage architecture—denoising/enhancement
+  and recovery—and incorporates key domain features such as orientation fields and
+  minutiae as supervision signals. By imposing multi-level constraints on features,
+  images, and generation stages, FingerRT effectively removes ambient noise, restores
+  missing ridge structures, and significantly improves recognition accuracy on rolled,
+  snapped, and latent fingerprint datasets.
+
+cover:          /assets/images/covers/finger.png
+
 authors:
-  - Your Name
-  - James Wang
-  - Some Other Name
-  - John Doe
+  - "Zexi Jia"
+  - "Chuanwei Huang"
+  - "Zheng Wang"
+  - "Hongyan Fei"
+  - "Song Wu"
+  - "Jufu Feng *"
+
 links:
-  Code: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  IEEE Xplore:  https://ieeexplore.ieee.org/document/10572016
+  DOI:          https://doi.org/10.1109/TIFS.2024.3419690
+  Code:        https://github.com/zexiJia/OffieNet
 ---
