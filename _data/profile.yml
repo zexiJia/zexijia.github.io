@@ -54,13 +54,13 @@ education:
     date: Sep. 2020 – Jul. 2024
   - name: Fudan University
     # 如果你准备加 Fudan logo，可以放在 assets/images/badges/ 下并在这里填路径
-    # logo: /assets/images/badges/Fudan.png
+    logo: /assets/images/badges/fudan.png
     position: >-
       M.Sc. in Computer Science (Computer Vision) <br/>
       Shanghai Key Laboratory of Data Science
     date: Sep. 2017 – Jul. 2020
   - name: Fudan University
-    # logo: /assets/images/badges/Fudan.png
+    ogo: /assets/images/badges/fudan.png
     position: >-
       B.Eng. in Software Engineering (Data Mining) <br/>
       Software Engineering Laboratory
@@ -69,7 +69,7 @@ education:
 awards:
   - name: Tencent "Qingyun Program" for outstanding young researchers
     date: 2024
+  - name: Huawei "Genius Youth Program"
+    date: 2024
   - name: Highest Award from the Ministry of Public Security for contributions to a new-generation national fingerprint recognition system
     date: 2023
-  - name: Huawei "Genius Youth Program"
-    date: 2022
