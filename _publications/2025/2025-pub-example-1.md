@@ -18,7 +18,7 @@ abstract: >-
   multiple benchmarks, including our new and challenging FakeART dataset.
 
 # 记得把封面图放到这个路径，或者改成你实际的图片路径
-cover:          /assets/images/covers/cvpr2025.jpg
+cover:          /assets/images/covers/cvpr.png
 
 authors:
   - "Zexi Jia"
@@ -35,6 +35,5 @@ authors:
 links:
   PDF:           https://openaccess.thecvf.com/content/CVPR2025/papers/Jia_Secret_Lies_in_Color_Enhancing_AI-Generated_Images_Detection_with_Color_CVPR_2025_paper.pdf
   Supplementary: https://openaccess.thecvf.com/content/CVPR2025/supplemental/Jia_Secret_Lies_in_CVPR_2025_supplemental.pdf
-  CVPR OpenAccess: https://openaccess.thecvf.com/content/CVPR2025/html/Jia_Secret_Lies_in_Color_Enhancing_AI-Generated_Images_Detection_with_Color_CVPR_2025_paper.html
-  CVPR Poster:   https://cvpr.thecvf.com/virtual/2025/poster/33701
+  Data: https://huggingface.co/datasets/wechat-prcap/domain_dataset
 ---
