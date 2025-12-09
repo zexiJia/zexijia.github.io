@@ -30,8 +30,4 @@ date: 2024-01-12 00:01:00 +0800
         and some are just for fun. Think of it as a living scrapbook of a life 
         that enjoys both science and the world outside the lab.
     </p>
-    <p>
-        Scroll down, pick any card that catches your eye, and welcome to my everyday chaos —
-        organized just enough to be called a “collection”. 🙂
-    </p>
 </div>
