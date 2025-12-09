@@ -1,17 +1,39 @@
 ---
-title:          "Lorem ipsum: Dolor sit amet, consectetur adipiscing elit"
-date:           2023-01-05 00:01:00 +0800
+title:          "Event-Based Semantic Segmentation With Posterior Attention"
+date:           2023-04-01 00:01:00 +0800
 selected:       true
-pub:            "Nature Communications"
+
+pub:            "IEEE Transactions on Image Processing (TIP)"
 pub_date:       "2023"
+pub_last:       ' <span class="badge badge-pill badge-publication badge-primary">Journal</span>'
+
+# semantic_scholar_id: xxxx   # 以后想自动同步引用数再填
+
 abstract: >-
-  Cover image is a photo by Thomas Renaud on Unsplash. The abstract of the publication is meant to be a TLDR (very brief summary with 1~2 sentences) of your paper.
-cover:          /assets/images/covers/cover1.jpg
+  We address semantic segmentation using only event-based cameras, which operate in
+  microseconds and remain robust under challenging lighting. To better exploit event
+  information, we propose a posterior attention module that adjusts standard attention
+  with priors derived from events and can be plugged into existing segmentation
+  backbones. Integrated with SegFormer, the resulting EvSegFormer achieves
+  state-of-the-art performance on MVSEC and DDD-17 for event-based semantic
+  segmentation, demonstrating both accuracy and efficiency.
+
+cover:          /assets/images/covers/tip.png
+
 authors:
-- Your Name*
-- Robert White*
-- John Doe
-- Charles Green (Stanford)
+  - "Zexi Jia"
+  - "Kaichao You"
+  - "Weihua He *"
+  - "Yang Tian"
+  - "Yongxiang Feng"
+  - "Yaoyuan Wang"
+  - "Xu Jia"
+  - "Yihang Lou"
+  - "Jingyi Zhang"
+  - "Guoqi Li"
+  - "Ziyang Zhang"
+
 links:
-  Paper: https://www.cell.com
+  IEEE Xplore: https://ieeexplore.ieee.org/document/10058930
+  Code:        https://github.com/zexiJia/EvSegFormer
 ---
