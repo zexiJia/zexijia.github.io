@@ -28,6 +28,6 @@ date: 2024-01-12 00:01:00 +0800
         Some cards here will be about <strong>research</strong> (behind-the-scenes stories, sketches, and demos),
         some about <strong>life</strong> (music, coffee, cities, and small happiness),
         and some are just for fun. Think of it as a living scrapbook of a life 
-        that enjoys both science and the world outside the lab.
+        that enjoys both science and the world outside the lab 🙂.
     </p>
 </div>
