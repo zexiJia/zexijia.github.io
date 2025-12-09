@@ -1,22 +1,40 @@
 ---
-title:          "Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac"
-date:           2024-05-12 00:01:00 +0800
+title:          "Secret Lies in Color: Enhancing AI-Generated Images Detection with Color Distribution Analysis"
+date:           2025-06-01 00:01:00 +0800
 selected:       true
-pub:            "International Conference on Machine Learning (ICML)"
-# pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date:       "2024"
-semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
+
+pub:            "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+pub_date:       "2025"
+# 你在 CVPR 是 poster，可以给一个 Poster 的小徽章
+pub_last:       ' <span class="badge badge-pill badge-publication badge-secondary">Poster</span>'
+
+# semantic_scholar_id: xxxx   # 等以后有了再填，也可以先留空
+
 abstract: >-
-  Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
-cover:          /assets/images/covers/cover3.jpg
+  We propose a color-distribution-based framework for detecting AI-generated images.
+  By analyzing the differences before and after color quantization and restoration,
+  we extract lightweight color features and combine them with image features to
+  build a 1.4M-parameter detector that achieves state-of-the-art performance on
+  multiple benchmarks, including our new and challenging FakeART dataset.
+
+# 记得把封面图放到这个路径，或者改成你实际的图片路径
+cover:          /assets/images/covers/cvpr2025.jpg
+
 authors:
-  - Your Name
-  - James Wang
-  - Some Other Name
-  - John Doe
+  - "Zexi Jia"
+  - "Chuanwei Huang"
+  - "Yeshuang Zhu"
+  - "Hongyan Fei"
+  - "Xiaoyue Duan"
+  - "Zhiqiang Yuan"
+  - "Ying Deng"
+  - "Jiapei Zhang"
+  - "Jinchao Zhang"
+  - "Jie Zhou"
+
 links:
-  Code: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  PDF:           https://openaccess.thecvf.com/content/CVPR2025/papers/Jia_Secret_Lies_in_Color_Enhancing_AI-Generated_Images_Detection_with_Color_CVPR_2025_paper.pdf
+  Supplementary: https://openaccess.thecvf.com/content/CVPR2025/supplemental/Jia_Secret_Lies_in_CVPR_2025_supplemental.pdf
+  CVPR OpenAccess: https://openaccess.thecvf.com/content/CVPR2025/html/Jia_Secret_Lies_in_Color_Enhancing_AI-Generated_Images_Detection_with_Color_CVPR_2025_paper.html
+  CVPR Poster:   https://cvpr.thecvf.com/virtual/2025/poster/33701
 ---
