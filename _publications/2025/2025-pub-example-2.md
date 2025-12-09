@@ -1,7 +1,7 @@
 ---
 title:          "MCID: Multi-aspect Copyright Infringement Detection for Generated Images"
 date:           2025-10-20 00:03:00 +0800
-selected:       false
+selected:       true
 
 pub:            "IEEE/CVF International Conference on Computer Vision (ICCV)"
 pub_date:       "2025"

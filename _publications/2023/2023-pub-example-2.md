@@ -1,24 +1,39 @@
 ---
-title:          "Pharetra Massa Massa Ultricies Mi Nisl Tincidunt"
-date:           2023-01-21 00:01:00 +0800
-selected:       false
-pub:            "International Conference on Learning Representations (ICLR)"
-pub_date:       "2023"
-semantic_scholar_id: 11ac0b5634a282f1a0da204b98e7473d8b480dfb  # use this to retrieve citation count
-abstract: >-
-  Photo by Dessy Dimcheva on Unsplash. Please keep the description of your publication as brief as possible. 1~2 sentences is ideal. Otherwise, it will look too noisy. This is a <strong>counterexample</strong> to show how the publication will look like when the abstract is too long.
-  The tangerine is a type of citrus fruit that is orange in color, that is considered either a variety of Citrus reticulata, the mandarin orange, or a closely related species, under the name Citrus tangerina, or yet as a hybrid (Citrus × tangerina) of mandarin orange varieties, with some pomelo contribution.
-  According to the Oxford English Dictionary (OED), the word "tangerine" was originally an adjective meaning "Of or pertaining to, or native of Tangier, a seaport in Morocco, on the Strait of Gibraltar" and "a native of Tangier." The name was first used for fruit coming from Tangier, Morocco, described as a mandarin variety. The OED cites this usage from Addison's The Tatler in 1710 with similar uses from the 1800s. The adjective was applied to the fruit, once known scientifically as "Citrus nobilis var. tangeriana" which grew in the region of Tangiers. This usage appears in the 1800s.
+title:          "OffieNet: Toward Robust Fingerprint Matching in Complex and Uncontrolled Scenarios"
+date:           2024-07-01 00:01:00 +0800
+selected:       true
 
-cover:          /assets/images/covers/cover2.jpg
+pub:            "IEEE Transactions on Information Forensics and Security (TIFS)"
+pub_date:       "2024"
+pub_last:       ' <span class="badge badge-pill badge-publication badge-primary">Journal</span>'
+
+# semantic_scholar_id: xxxx   # 以后要自动拉引用数再填
+
+abstract: >-
+  We address fingerprint recognition in complex and uncontrolled real-world scenarios,
+  where severe distortions, background clutter, and cross-sensor variations often
+  break traditional pipelines. We propose OffieNet, a robust fingerprint matching
+  framework that combines global–local feature modeling with an offset-invariant
+  matching strategy, enabling reliable correspondence even under large deformations
+  and background interference. Extensive experiments on multiple in-the-wild
+  benchmarks show that OffieNet significantly improves both accuracy and robustness
+  over existing fingerprint recognition methods, and has been deployed in a
+  next-generation national fingerprint recognition system.
+
+cover:          /assets/images/covers/tifs2024-offienet.jpg
+
 authors:
-  - Charles Green (MIT)*
-  - John Doe*
-  - Robert White
-  - James Wang
-  - Your Name#
+  - "Zexi Jia"
+  - "Chuanwei Huang"
+  - "Hongyan Fei"
+  - "Yeshuang Zhu"
+  - "Ying Deng"
+  - "Zhiqiang Yuan"
+  - "Jiapei Zhang"
+  - "Jinchao Zhang"
+  - "Jie Zhou"
+
 links:
-  Paper: https://www.biorxiv.org
-  Code: https://github.com
-  Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+  IEEE Xplore: https://ieeexplore.ieee.org/document/10572016
+  Code:        https://github.com/zexiJia/OffieNet
 ---
