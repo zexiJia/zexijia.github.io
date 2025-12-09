@@ -61,7 +61,7 @@ education:
 experience:
   - name: Tencent WeChat AI
     dept: Multimodal LLMs and AIGC Safety
-    # logo: /assets/images/badges/tencent.png
+    logo: /assets/images/badges/tencent.png
     position: Senior Researcher
     date: Aug. 2024 – Present
 
@@ -73,7 +73,7 @@ experience:
 
   - name: Huawei Noah's Ark Lab
     dept: Computer Vision Group
-    # logo: /assets/images/badges/huawei.png
+    logo: /assets/images/badges/huawei.png
     position: Research Intern
     date: Oct. 2021 – Jun. 2023
 
