@@ -5,19 +5,33 @@ date: 2024-01-12 00:01:00 +0800
 ---
 
 <div class="p-4">
-    <h2>Welcome to Showcase!</h2>
+    <h2>Welcome to Collections!</h2>
     <hr />
     <p>
-        <code>Showcase</code> is a page where you can show off almost anything you want. It can be the photo of your pets, your favorite books, your favorite projects, or anything else you want to show to the world.
+        Hi, I'm <strong>Zexi</strong> — a researcher who loves beautiful ideas, clean code, 
+        noisy fingerprints, and even noisier concerts.
     </p>
     <p>
-        You can create a new showcase item by creating a new file in the <code>_showcase</code> folder. It gives you the highest flexibility to customize the item using any HTML code.
+        This <code>Collections</code> page is my little corner outside formal papers and CVs. 
+        Here I collect moments from work and life: snapshots from conferences, small weekend projects, 
+        notes from late-night experiments, travel photos, and random things that made me smile.
     </p>
     <p>
-        Cards are ordered by the <code>date</code> field in the front matter in descending order. The <code>width</code> field is used to determine the width of the card, ranging from 1 to 12.
-        Layout is done by the <a href="https://masonry.desandro.com/" target="_blank">Masonry</a> library.
+        My motto is:
+        <br/>
+        <em>“Try again. Fail again. Fail better.”</em>
+        <br/>
+        把每一次失败都当成向前迈半步——无论是在调不收敛的模型里，还是在做不熟练的菜里。
+        If something doesn’t work, I tweak it, laugh at it, and try one more time.
     </p>
     <p>
-        For a tidy layout, it is recommended to set the width of the cards to be either multiple of 3 or multiple of 4 for all cards, except for small badges that do not take up much space (width=1).
+        Some cards here will be about <strong>research</strong> (behind-the-scenes stories, sketches, and demos),
+        some about <strong>life</strong> (music, coffee, cities, and small happiness),
+        and some are just for fun. Think of it as a living scrapbook of a life 
+        that enjoys both science and the world outside the lab.
+    </p>
+    <p>
+        Scroll down, pick any card that catches your eye, and welcome to my everyday chaos —
+        organized just enough to be called a “collection”. 🙂
     </p>
 </div>
