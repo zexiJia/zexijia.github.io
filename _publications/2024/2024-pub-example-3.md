@@ -31,6 +31,5 @@ authors:
 
 links:
   IEEE Xplore:  https://ieeexplore.ieee.org/document/10572016
-  DOI:          https://doi.org/10.1109/TIFS.2024.3419690
   Code:        https://github.com/zexiJia/OffieNet
 ---
