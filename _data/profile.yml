@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Zexi Jia"
 
 positions:
-  - name: Senior Algorithm Researcher, Tencent WeChat AI
+  - name: Senior Researcher, Tencent WeChat AI
   - name: Ph.D. in Intelligent Science, Peking University
     # logo: /assets/images/badges/PKU_red.png  # 如果你有学校 logo，可以在这里加上
 
@@ -12,8 +12,8 @@ email: "jiazexi1@163.com"
 # cv_link: /assets/files/Zexi_Jia_CV.pdf
 
 # TODO: 把下面几个占位符都换成你自己的 ID
-gscholar: your_google_scholar_id  # 只填 ID，不是整条 URL
-github: your_github_id
+gscholar: z8_HxH0AAAAJ # 只填 ID，不是整条 URL
+github: zexiJia
 twitter: your_twitter_id           # 不要带 @
 # linkedin: your-linkedin-id
 # orcid: 0000-0000-0000-0000
@@ -43,9 +43,7 @@ short_bio: >-
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  <!-- 可选：这里可以写摄影师 / 拍摄地点等说明，也可以直接删掉这行 -->
-  Portrait of Zexi Jia.
+
 
 education:
   - name: Peking University
