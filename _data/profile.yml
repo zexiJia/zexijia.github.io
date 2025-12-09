@@ -7,8 +7,8 @@ positions:
   - name: Ph.D. in Intelligent Science, Peking University
     # logo: /assets/images/badges/PKU_red.png  # 如果你有学校 logo，可以在这里加上
 
-email: "jiazexi1@163.com"
-# cv_link: /assets/files/Zexi_Jia_CV.pdf
+email: "zexijia@tencent.com"
+cv_link: /assets/files/cv.pdf
 
 gscholar: z8_HxH0AAAAJ
 github: zexiJia
@@ -60,18 +60,29 @@ education:
 # ====== 从这里开始是新增的 Experience 区块 ======
 experience:
   - name: Tencent WeChat AI
-    # dept 是可选字段，在卡片里会显示成第二行小字；不需要可以删掉
-    dept: WeChat AI Group
-    # 如果你做了腾讯 logo，可以放到 assets/images/badges 下，再把路径填在这里
+    dept: Multimodal LLMs and AIGC Safety
     # logo: /assets/images/badges/tencent.png
-    position: Senior Algorithm Researcher
-    date: Aug. 2024 – present
-  # - name: Another Company / Lab
-  #   dept: Team / Lab name
-  #   logo: /assets/images/badges/xxx.png
-  #   position: Your Title
-  #   date: YEAR – YEAR
-# ====== 新增结束 ======
+    position: Senior Researcher
+    date: Aug. 2024 – Present
+
+  - name: Megvii (Face++)
+    dept: Face Recognition & Computer Vision
+    # logo: /assets/images/badges/megvii.png
+    position: Algorithm Researcher
+    date: Mar. 2020 – Aug. 2020
+
+  - name: Huawei Noah's Ark Lab
+    dept: Computer Vision Group
+    # logo: /assets/images/badges/huawei.png
+    position: Research Intern
+    date: Oct. 2021 – Jun. 2023
+
+  - name: Microsoft Research Asia
+    dept: Multimedia Search and Mining Group
+    # logo: /assets/images/badges/msra.png
+    position: Research Intern
+    date: Jun. 2019 – Oct. 2019
+
 
 awards:
   - name: Tencent "Qingyun Program" for outstanding young researchers
