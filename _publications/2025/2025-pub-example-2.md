@@ -16,7 +16,7 @@ abstract: >-
   Dataset (LSCD) and propose HIDM, a hybrid infringement detection model that combines
   feature-based similarity analysis with vision-language models. HIDM provides
   interpretable judgments and achieves significantly better performance than existing
-  methods across all infringement types, especially on challenging structural cases.:contentReference[oaicite:0]{index=0}
+  methods across all infringement types, especially on challenging structural cases.
 
 cover:          /assets/images/covers/iccv3.png
 

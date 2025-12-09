@@ -17,7 +17,7 @@ abstract: >-
   diverse counterfactual images with precisely controlled variations. Together with
   a new set-wise loss that separates intra-set and inter-set pairs, our method
   significantly boosts visual reasoning performance and achieves state-of-the-art
-  results on multiple benchmarks while using substantially less training data.:contentReference[oaicite:0]{index=0}
+  results on multiple benchmarks while using substantially less training data.
 
 cover:          /assets/images/covers/iccv2.png
 
