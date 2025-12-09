@@ -29,7 +29,7 @@ authors:
   - "Ying Deng"
   - "Zhiqiang Yuan"
   - "Jiapei Zhang"
-  - "Jinchao Zhang"
+  - "Jinchao Zhang *"
   - "Jie Zhou"
 
 links:
