@@ -35,6 +35,4 @@ authors:
 links:
   PDF:             https://openaccess.thecvf.com/content/ICCV2025/papers/Jia_A_Visual_Leap_in_CLIP_Compositionality_Reasoning_through_Generation_of_ICCV_2025_paper.pdf
   Supplementary:   https://openaccess.thecvf.com/content/ICCV2025/supplemental/Jia_A_Visual_Leap_ICCV_2025_supplemental.pdf
-  ICCV OpenAccess: https://openaccess.thecvf.com/content/ICCV2025/html/Jia_A_Visual_Leap_in_CLIP_Compositionality_Reasoning_through_Generation_of_ICCV_2025_paper.html
-  arXiv:           https://arxiv.org/abs/2507.04699
 ---

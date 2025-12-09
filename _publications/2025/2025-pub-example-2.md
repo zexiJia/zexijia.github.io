@@ -1,39 +1,39 @@
 ---
-title:          "From Imitation to Innovation: The Emergence of AI's Unique Artistic Styles and the Challenge of Copyright Protection"
-date:           2025-10-01 00:01:00 +0800
-selected:       true
+title:          "MCID: Multi-aspect Copyright Infringement Detection for Generated Images"
+date:           2025-10-20 00:03:00 +0800
+selected:       false
 
 pub:            "IEEE/CVF International Conference on Computer Vision (ICCV)"
 pub_date:       "2025"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-secondary">Poster</span>'
 
-# semantic_scholar_id: xxxx   # 以后想用自动引用数再填真实 ID
+# semantic_scholar_id: xxxx   # 以后想自动拉引用数再补
 
 abstract: >-
-  We study when AI-generated artworks can be recognized as having their own protectable
-  artistic styles and how to judge potential copyright infringement. Building on legal
-  precedents, we formulate three key criteria—stylistic consistency, creative uniqueness,
-  and expressive accuracy—and propose ArtBulb, an interpretable framework that combines
-  a style description-based multimodal clustering method with multimodal large language
-  models. We also construct AICD, the first benchmark dataset for AI art copyright
-  judgment, and show that ArtBulb outperforms existing methods in both quantitative and
-  qualitative evaluations.
+  We introduce MCID, a new task for multi-aspect copyright infringement detection in
+  AI-generated images that jointly considers content, style, structure, and intellectual
+  property infringement. To support this task, we construct the Large-scale Copyright
+  Dataset (LSCD) and propose HIDM, a hybrid infringement detection model that combines
+  feature-based similarity analysis with vision-language models. HIDM provides
+  interpretable judgments and achieves significantly better performance than existing
+  methods across all infringement types, especially on challenging structural cases.:contentReference[oaicite:0]{index=0}
 
-cover:          /assets/images/covers/iccv1.png
+cover:          /assets/images/covers/iccv3.png
 
 authors:
-  - "Zexi Jia"
   - "Chuanwei Huang"
-  - "Yeshuang Zhu"
+  - "Zexi Jia *"
   - "Hongyan Fei"
-  - "Ying Deng"
+  - "Yeshuang Zhu"
   - "Zhiqiang Yuan"
+  - "Ying Deng"
   - "Jiapei Zhang"
-  - "Jinchao Zhang *"
+  - "Xiaoyue Duan"
+  - "Jinchao Zhang"
   - "Jie Zhou"
 
 links:
-  PDF:             https://openaccess.thecvf.com/content/ICCV2025/papers/Jia_From_Imitation_to_Innovation_The_Emergence_of_AIs_Unique_Artistic_ICCV_2025_paper.pdf
-  Supplementary:   https://openaccess.thecvf.com/content/ICCV2025/supplemental/Jia_From_Imitation_to_ICCV_2025_supplemental.pdf
-
+  PDF:             https://openaccess.thecvf.com/content/ICCV2025/papers/Huang_MCID_Multi-aspect_Copyright_Infringement_Detection_for_Generated_Images_ICCV_2025_paper.pdf
+  Supplementary:   https://openaccess.thecvf.com/content/ICCV2025/supplemental/Huang_MCID_Multi-aspect_Copyright_ICCV_2025_supplemental.pdf
+  Poster:     https://iccv.thecvf.com/virtual/2025/poster/486
 ---
