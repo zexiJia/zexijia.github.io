@@ -12,7 +12,7 @@ abstract: >-
   by contrasting multi-modal (e.g., CLIP) and uni-modal (e.g., DINOv2) representations,
   with a large-scale WeART benchmark for style retrieval and evaluation.
 
-cover:          /assets/images/covers/icassp.png
+cover:          /assets/images/covers/styledecouple.png
 
 authors:
   - "Zexi Jia"

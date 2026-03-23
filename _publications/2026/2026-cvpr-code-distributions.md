@@ -12,7 +12,7 @@ abstract: >-
   codes, including CHD and CMMS, which achieve strong correlation with human perceptual
   preferences when comparing and ranking generative models.
 
-cover:          /assets/images/covers/cvpr.png
+cover:          /assets/images/covers/cvpr_1d.png
 
 authors:
   - "Zexi Jia"

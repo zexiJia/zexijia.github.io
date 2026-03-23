@@ -13,7 +13,7 @@ abstract: >-
   metric (CFM), and a training-free refinement (CFR) that calibrates guidance to improve
   photographic color authenticity.
 
-cover:          /assets/images/covers/cvpr.png
+cover:          /assets/images/covers/cvpr_vivid.png
 
 authors:
   - "Zhengyao Fang"

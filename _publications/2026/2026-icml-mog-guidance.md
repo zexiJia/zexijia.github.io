@@ -13,7 +13,7 @@ abstract: >-
   and applies a closed-form Riemannian correction (with an Auto-MOG schedule) to reduce
   artifacts at high guidance without retraining.
 
-cover:          /assets/images/covers/cover1.jpg
+cover:          /assets/images/covers/mog.png
 
 authors:
   - "Zexi Jia"

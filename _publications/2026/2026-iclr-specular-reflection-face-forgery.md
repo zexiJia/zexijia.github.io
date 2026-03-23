@@ -12,7 +12,7 @@ abstract: >-
   with fast texture estimation and an SRI-Net architecture, to detect forgeries that
   generalize across classical and diffusion-based deepfakes.
 
-cover:          /assets/images/covers/cover2.jpg
+cover:          /assets/images/covers/iclr.png
 
 authors:
   - "Hongyan Fei"
