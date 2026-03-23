@@ -12,7 +12,7 @@ abstract: >-
   a generative VLM with supervised fine-tuning plus GRPO-style reinforcement learning and
   curriculum sampling, outperforming strong VLMs on in-domain and real-world chats.
 
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/rvlm.png
 
 authors:
   - "Hanbo Bi"

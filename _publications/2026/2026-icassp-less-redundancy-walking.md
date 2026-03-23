@@ -12,7 +12,7 @@ abstract: >-
   GRPO-style preference optimization and an environment-awareness module, improving
   conciseness and temporal efficiency for visually impaired users.
 
-cover:          /assets/images/covers/icassp.png
+cover:          /assets/images/covers/less-redundancy.png
 
 authors:
   - "Chongyang Li"
