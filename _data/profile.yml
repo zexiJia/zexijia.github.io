@@ -5,34 +5,41 @@ navbar_name: "Zexi Jia"
 positions:
   - name: Senior Researcher, Tencent WeChat AI
   - name: Ph.D. in Intelligent Science, Peking University
-    # logo: /assets/images/badges/PKU_red.png  # 如果你有学校 logo，可以在这里加上
 
-email: "zexijia@tencent.com"
+email: "zxjia10@gmail.com"
 cv_link: /assets/files/cv.pdf
 
 gscholar: z8_HxH0AAAAJ
 github: zexiJia
-twitter: your_twitter_id           # 不要带 @
 # linkedin: your-linkedin-id
 # orcid: 0000-0000-0000-0000
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a Senior Algorithm Researcher at
-    <a href="https://www.tencent.com/" target="_blank">Tencent WeChat AI</a>,
-    working on multimodal large language models and AI-generated content (AIGC) safety.
-    My research interests include multimodal learning and vision-language models,
-    AIGC safety and copyright protection, and biometric recognition.
+    I work on <strong>trustworthy generative vision</strong>, with broader interests in
+    multimodal foundation models and visual representation learning. My research develops
+    principled methods for making generative visual systems more reliable, measurable, and
+    controllable—including media authenticity and copyright, generative model evaluation,
+    and large-scale training and optimization. I aim to connect ideas from geometry,
+    statistics, and visual structure to methods that advance both scientific understanding
+    and real-world generative systems.
   </p>
   <p>
-    Previously, I obtained my Ph.D. in Intelligent Science (Machine Vision) from
-    <a href="https://www.pku.edu.cn/" target="_blank">Peking University</a>, and my M.Sc. in
-    Computer Science (Computer Vision) and B.Eng. in Software Engineering (Data Mining)
-    from <a href="https://www.fudan.edu.cn/" target="_blank">Fudan University</a>.
-    I have published first-author and corresponding-author papers in top venues such as
-    CVPR, ICCV, IEEE TIP and IEEE TIFS, and worked on large-scale systems ranging from
-    national fingerprint recognition to multimodal foundation models and AIGC safety.
+    I am a Senior Researcher at
+    <a href="https://www.tencent.com/" target="_blank" rel="noopener">Tencent WeChat AI</a>,
+    where I lead and contribute to multimodal and generative initiatives (including large-scale
+    image generation and alignment). I received my Ph.D. in Intelligent Science (Machine Vision)
+    from <a href="https://www.pku.edu.cn/" target="_blank" rel="noopener">Peking University</a>
+    (advisor: Prof. Jufu Feng) and my M.Sc. and B.Eng. from
+    <a href="https://www.fudan.edu.cn/" target="_blank" rel="noopener">Fudan University</a>
+    (M.Sc. advisor: Prof. Xiangdong Zhou). I serve as a reviewer for major vision and ML venues
+    (CVPR, ICCV, ECCV, ICLR, ICML, NeurIPS, AAAI, ACM MM; IEEE TPAMI, TIP, TIFS) and have mentored
+    15+ students and interns on generative models, AIGC safety, and multimodal learning.
+  </p>
+  <p class="small text-muted mb-0">
+    <strong>Interests:</strong> Computer vision; generative models; trustworthy AI; multimodal learning;
+    biometrics; event-camera vision.
   </p>
 
 portrait_url: /assets/images/photos/photo.png
@@ -40,45 +47,61 @@ portrait_url: /assets/images/photos/photo.png
 education:
   - name: Peking University
     logo: /assets/images/badges/PKU_red.png
+    dept: Beijing, China
     position: >-
       Ph.D. in Intelligent Science (Machine Vision) <br/>
-      National Key Laboratory of Visual Information Processing
-    date: Sep. 2020 – Jul. 2024
+      National Key Laboratory of Visual and Auditory Information Processing <br/>
+      <span class="text-muted small">Advisor: Prof. Jufu Feng</span>
+    date: Sep 2020 – Jul 2024
   - name: Fudan University
     logo: /assets/images/badges/fudan.png
+    dept: Shanghai, China
     position: >-
       M.Sc. in Computer Science (Computer Vision) <br/>
-      Shanghai Key Laboratory of Data Science
-    date: Sep. 2017 – Jul. 2020
+      Shanghai Key Laboratory of Data Science <br/>
+      <span class="text-muted small">Advisor: Prof. Xiangdong Zhou</span>
+    date: Sep 2017 – Jul 2020
   - name: Fudan University
     logo: /assets/images/badges/fudan.png
+    dept: Shanghai, China
     position: >-
-      B.Eng. in Software Engineering (Data Mining) <br/>
-      Software Engineering Laboratory
-    date: Sep. 2011 – Jul. 2016
+      B.Eng. in Software Engineering <br/>
+      Shanghai Key Laboratory of Data Science
+    date: Sep 2011 – Jul 2016
 
-# ====== 从这里开始是新增的 Experience 区块 ======
 experience:
   - name: Tencent WeChat AI
-    dept: Multimodal LLMs and AIGC Safety
+    dept: Trustworthy generative vision; multimodal foundation models; AIGC safety
     logo: /assets/images/badges/tencent.png
     position: Senior Researcher
-    date: Aug. 2024 – Present
+    date: Jul 2024 – Present
 
-  - name: Megvii (Face++)
-    dept: Face Recognition & Computer Vision
-    logo: /assets/images/badges/megvii.png
-    position: Researcher
-    date: Mar. 2020 – Aug. 2020
+  - name: Peking University
+    dept: Machine vision & biometrics (Ph.D. research)
+    logo: /assets/images/badges/PKU_red.png
+    position: Ph.D. Researcher
+    date: Sep 2020 – Jul 2024
 
   - name: Huawei Noah's Ark Lab
-    dept: Computer Vision Group
+    dept: Event-based vision & representation learning
     logo: /assets/images/badges/huawei.png
     position: Research Intern
-    date: Oct. 2021 – Jun. 2023
+    date: Oct 2021 – Jun 2023
 
   - name: Microsoft Research Asia
-    dept: Multimedia Search and Mining Group
+    dept: Multimedia search and mining
     logo: /assets/images/badges/msra.png
     position: Research Intern
-    date: Jun. 2019 – Oct. 2019
+    date: Jun 2019 – Oct 2019
+
+awards:
+  - name: Tencent Qingyun Program (Top Young Talent Selection)
+    date: "2024"
+  - name: Outstanding Performance Rating (consecutive), Tencent
+    date: 2024–2025
+  - name: Huawei Top Minds Program (full-time offer extended)
+    date: "2023"
+  - name: Highest-Level Award, Ministry of Public Security, P.R. China
+    date: "2023"
+  - name: Featured in People's Daily and Guangming Daily for fingerprint recognition research
+    date: "2023"

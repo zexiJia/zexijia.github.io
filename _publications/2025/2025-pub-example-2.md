@@ -1,7 +1,7 @@
 ---
 title:          "MCID: Multi-aspect Copyright Infringement Detection for Generated Images"
 date:           2025-10-20 00:03:00 +0800
-selected:       true
+selected:       false
 
 pub:            "IEEE/CVF International Conference on Computer Vision (ICCV)"
 pub_date:       "2025"
@@ -33,7 +33,9 @@ authors:
   - "Jie Zhou"
 
 links:
-  PDF:             https://openaccess.thecvf.com/content/ICCV2025/papers/Huang_MCID_Multi-aspect_Copyright_Infringement_Detection_for_Generated_Images_ICCV_2025_paper.pdf
-  Supplementary:   https://openaccess.thecvf.com/content/ICCV2025/supplemental/Huang_MCID_Multi-aspect_Copyright_ICCV_2025_supplemental.pdf
-  Poster:     https://iccv.thecvf.com/virtual/2025/poster/486
+  arXiv: https://arxiv.org/search/?query=MCID+Multi-aspect+Copyright+Infringement+Generated+Images&searchtype=all&source=header
+  Code: https://github.com/zexiJia
+  PDF: https://openaccess.thecvf.com/content/ICCV2025/papers/Huang_MCID_Multi-aspect_Copyright_Infringement_Detection_for_Generated_Images_ICCV_2025_paper.pdf
+  Supplementary: https://openaccess.thecvf.com/content/ICCV2025/supplemental/Huang_MCID_Multi-aspect_Copyright_ICCV_2025_supplemental.pdf
+  Poster: https://iccv.thecvf.com/virtual/2025/poster/486
 ---

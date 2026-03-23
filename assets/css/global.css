@@ -1,49 +1,101 @@
 @charset "utf-8";
-body {
-    font-family: "Lato", sans-serif;
+
+:root {
+    --site-accent: #2563eb;
+    --site-accent-soft: rgba(37, 99, 235, 0.12);
+    --site-card-shadow: 0 0.35rem 1.25rem rgba(15, 23, 42, 0.06);
+    --site-card-border: rgba(15, 23, 42, 0.06);
+}
+
+.site-body {
+    font-family: "Source Sans 3", "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    background: linear-gradient(165deg, #f0f4fb 0%, #eef2f9 42%, #f7f8fc 100%);
+    background-attachment: fixed;
+    color: #1e293b;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #0f172a;
+}
+
+.site-navbar {
+    background: linear-gradient(120deg, #0f172a 0%, #1e293b 55%, #243b53 100%) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    backdrop-filter: saturate(140%) blur(8px);
+}
+
+.site-navbar .navbar-brand {
+    letter-spacing: 0.02em;
+}
+
+.site-navbar .nav-link {
+    transition: color 0.15s ease, opacity 0.15s ease;
+}
+
+.site-navbar .nav-link:hover {
+    color: #fff !important;
+    opacity: 0.92;
 }
 
 .card {
-    border-radius: 0.8rem!important;
+    border-radius: 0.85rem !important;
+    border: 1px solid var(--site-card-border) !important;
+    box-shadow: var(--site-card-shadow) !important;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card.border-0 {
+    border: 1px solid var(--site-card-border) !important;
+}
+
+a {
+    color: var(--site-accent);
+}
+
+a:hover {
+    color: #1d4ed8;
+}
+
+.text-profile-bio a {
+    font-weight: 500;
 }
 
 .card-img-overlay {
-    border-radius: 0.8rem!important;
+    border-radius: 0.85rem !important;
 }
 
 .rounded-xl {
-    border-radius: 0.8rem!important;
+    border-radius: 0.85rem !important;
+    border: 1px solid var(--site-card-border);
 }
 
 .rounded-xl-bottom {
-    border-bottom-right-radius: 0.8rem !important;
-    border-bottom-left-radius: 0.8rem !important;
+    border-bottom-right-radius: 0.85rem !important;
+    border-bottom-left-radius: 0.85rem !important;
 }
 
 .rounded-xl-top {
-    border-top-left-radius: 0.8rem !important;
-    border-top-right-radius: 0.8rem !important;
+    border-top-left-radius: 0.85rem !important;
+    border-top-right-radius: 0.85rem !important;
 }
 
-
 .text-profile-position {
-    font-weight: 400;
+    font-weight: 500;
+    color: #475569;
 }
 
 .text-profile-bio {
-    /* font-family: "Raleway"; */
     font-weight: 400;
+    line-height: 1.65;
 }
 
 .navbar {
-    opacity: 0.95;
+    opacity: 0.98;
 }
 
 .inline-badge {
@@ -87,6 +139,32 @@ div.lazy {
 }
 
 .email-text {
-    font-family: Source Code Pro, monospace;
+    font-family: "Source Code Pro", ui-monospace, monospace;
+    font-size: 0.9rem;
 }
 
+.my-3.p-0.bg-white.shadow-sm.rounded-xl {
+    box-shadow: var(--site-card-shadow) !important;
+    border: 1px solid var(--site-card-border) !important;
+}
+
+.abstract-links a {
+    font-weight: 500;
+}
+
+/* Sidebar profile card accent */
+.row.sticky-top > .col > .card {
+    position: relative;
+    overflow: hidden;
+}
+
+.row.sticky-top > .col > .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #2563eb, #6366f1, #7c3aed);
+    opacity: 0.92;
+}

@@ -1,7 +1,7 @@
 ---
 title:          "Finger Recovery Transformer: Toward Better Incomplete Fingerprint Identification"
 date:           2024-12-01 00:01:00 +0800
-selected:       true
+selected:       false
 
 pub:            "IEEE Transactions on Information Forensics and Security (TIFS)"
 pub_date:       "2024"
@@ -30,6 +30,7 @@ authors:
   - "Jufu Feng *"
 
 links:
-  IEEE Xplore:  https://ieeexplore.ieee.org/document/10572016
-  Code:        https://github.com/zexiJia/OffieNet
+  arXiv: https://arxiv.org/search/?query=Finger+Recovery+Transformer+Incomplete+Fingerprint&searchtype=all&source=header
+  Code: https://github.com/zexiJia/OffieNet
+  IEEE Xplore: https://ieeexplore.ieee.org/document/10572016
 ---

@@ -34,6 +34,7 @@ authors:
   - "Ziyang Zhang"
 
 links:
+  arXiv: https://arxiv.org/search/?query=Event-Based+Semantic+Segmentation+Posterior+Attention&searchtype=all&source=header
+  Code: https://github.com/zexiJia/EvSegFormer
   IEEE Xplore: https://ieeexplore.ieee.org/document/10058930
-  Code:        https://github.com/zexiJia/EvSegFormer
 ---

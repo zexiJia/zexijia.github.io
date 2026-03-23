@@ -1,7 +1,7 @@
 ---
 title:          "From Imitation to Innovation: The Emergence of AI's Unique Artistic Styles and the Challenge of Copyright Protection"
 date:           2025-10-01 00:01:00 +0800
-selected:       true
+selected:       false
 
 pub:            "IEEE/CVF International Conference on Computer Vision (ICCV)"
 pub_date:       "2025"
@@ -33,7 +33,9 @@ authors:
   - "Jie Zhou"
 
 links:
-  PDF:             https://openaccess.thecvf.com/content/ICCV2025/papers/Jia_From_Imitation_to_Innovation_The_Emergence_of_AIs_Unique_Artistic_ICCV_2025_paper.pdf
-  Supplementary:   https://openaccess.thecvf.com/content/ICCV2025/supplemental/Jia_From_Imitation_to_ICCV_2025_supplemental.pdf
+  arXiv: https://arxiv.org/abs/2507.04769
+  Code: https://github.com/zexiJia
+  PDF: https://openaccess.thecvf.com/content/ICCV2025/papers/Jia_From_Imitation_to_Innovation_The_Emergence_of_AIs_Unique_Artistic_ICCV_2025_paper.pdf
+  Supplementary: https://openaccess.thecvf.com/content/ICCV2025/supplemental/Jia_From_Imitation_to_ICCV_2025_supplemental.pdf
 
 ---

@@ -1,7 +1,7 @@
 ---
 title:          "Automated Framework for Extracting and Restoring Minutiae From Low-Quality Fingerprints"
 date:           2025-05-01 00:01:00 +0800
-selected:       true
+selected:       false
 
 pub:            "IEEE Signal Processing Letters (SPL)"
 pub_date:       "2025"
@@ -22,5 +22,7 @@ authors:
   - "Chuanwei Huang"
 
 links:
+  arXiv: https://arxiv.org/search/?query=Automated+Framework+Extracting+Restoring+Minutiae+Low-Quality+Fingerprints&searchtype=all&source=header
+  Code: https://github.com/zexiJia/OffieNet
   IEEE Xplore: https://ieeexplore.ieee.org/abstract/document/11007251
 ---

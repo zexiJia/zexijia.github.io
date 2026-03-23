@@ -1,7 +1,7 @@
 ---
 title:          "A Visual Leap in CLIP Compositionality Reasoning through Generation of Counterfactual Sets"
 date:           2025-10-20 00:02:00 +0800
-selected:       true
+selected:       false
 
 pub:            "IEEE/CVF International Conference on Computer Vision (ICCV)"
 pub_date:       "2025"
@@ -33,6 +33,8 @@ authors:
   - "Jie Zhou"
 
 links:
-  PDF:             https://openaccess.thecvf.com/content/ICCV2025/papers/Jia_A_Visual_Leap_in_CLIP_Compositionality_Reasoning_through_Generation_of_ICCV_2025_paper.pdf
-  Supplementary:   https://openaccess.thecvf.com/content/ICCV2025/supplemental/Jia_A_Visual_Leap_ICCV_2025_supplemental.pdf
+  arXiv: https://arxiv.org/abs/2507.04699
+  Code: https://github.com/zexiJia
+  PDF: https://openaccess.thecvf.com/content/ICCV2025/papers/Jia_A_Visual_Leap_in_CLIP_Compositionality_Reasoning_through_Generation_of_ICCV_2025_paper.pdf
+  Supplementary: https://openaccess.thecvf.com/content/ICCV2025/supplemental/Jia_A_Visual_Leap_ICCV_2025_supplemental.pdf
 ---

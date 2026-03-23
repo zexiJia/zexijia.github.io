@@ -1,7 +1,7 @@
 ---
 title:          "ArtFRD: A Fisher-Rao Mixture Metric for Generative Model Aesthetic Evaluation"
 date:           2025-10-27 00:01:00 +0800
-selected:       true
+selected:       false
 
 pub:            "Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM)"
 pub_date:       "2025"
@@ -31,5 +31,7 @@ authors:
   - "Jie Zhou"
 
 links:
+  arXiv: https://arxiv.org/search/?query=ArtFRD+Fisher-Rao+mixture+metric+aesthetic+generative&searchtype=all&source=header
+  Code: https://github.com/zexiJia
   PDF: https://dl.acm.org/doi/pdf/10.1145/3746027.3755259
 ---

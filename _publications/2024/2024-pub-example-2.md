@@ -1,7 +1,7 @@
 ---
 title:          "Semantic to Structure: Learning Structural Representations for Infringement Detection"
 date:           2025-04-10 00:01:00 +0800
-selected:       true
+selected:       false
 
 pub:            "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)"
 pub_date:       "2025"
@@ -33,6 +33,7 @@ authors:
   - "Jie Zhou"
 
 links:
-  arXiv:   https://arxiv.org/pdf/2502.07323
-  PDF:     https://arxiv.org/pdf/2502.07323
+  arXiv: https://arxiv.org/abs/2502.07323
+  Code: https://github.com/zexiJia
+  PDF: https://arxiv.org/pdf/2502.07323
 ---
