@@ -15,12 +15,11 @@ cover:          /assets/images/covers/cvpr.png
 
 authors:
   - "Pengcheng Luo"
-  - "Zexi Jia *"
+  - "Zexi Jia"
   - "Yijia Zhong"
   - "Jinchao Zhang"
   - "Jie Zhou"
 
 links:
   arXiv: https://arxiv.org/search/?query=GROW+Watermark+Progressive+Guidance+Diffusion&searchtype=all&source=header
-  Code: https://github.com/zexiJia
 ---

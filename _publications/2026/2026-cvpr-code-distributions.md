@@ -18,7 +18,7 @@ authors:
   - "Zexi Jia"
   - "Pengcheng Luo"
   - "Yijia Zhong"
-  - "Jinchao Zhang *"
+  - "Jinchao Zhang"
   - "Jie Zhou"
 
 links:

@@ -19,9 +19,8 @@ authors:
   - "Zhiqiang Yuan"
   - "Hanbo Bi"
   - "Zexi Jia"
-  - "Jinchao Zhang *"
+  - "Jinchao Zhang"
 
 links:
   arXiv: https://arxiv.org/abs/2508.16070
-  Code: https://github.com/zexiJia
 ---

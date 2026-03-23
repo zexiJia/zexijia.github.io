@@ -29,12 +29,11 @@ authors:
   - "Ying Deng"
   - "Zhiqiang Yuan"
   - "Jiapei Zhang"
-  - "Jinchao Zhang *"
+  - "Jinchao Zhang"
   - "Jie Zhou"
 
 links:
   arXiv: https://arxiv.org/abs/2507.04769
-  Code: https://github.com/zexiJia
   PDF: https://openaccess.thecvf.com/content/ICCV2025/papers/Jia_From_Imitation_to_Innovation_The_Emergence_of_AIs_Unique_Artistic_ICCV_2025_paper.pdf
   Supplementary: https://openaccess.thecvf.com/content/ICCV2025/supplemental/Jia_From_Imitation_to_ICCV_2025_supplemental.pdf
 

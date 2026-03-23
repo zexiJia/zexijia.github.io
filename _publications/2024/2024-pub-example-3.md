@@ -27,7 +27,7 @@ authors:
   - "Zheng Wang"
   - "Hongyan Fei"
   - "Song Wu"
-  - "Jufu Feng *"
+  - "Jufu Feng"
 
 links:
   arXiv: https://arxiv.org/search/?query=Finger+Recovery+Transformer+Incomplete+Fingerprint&searchtype=all&source=header

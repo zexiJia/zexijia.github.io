@@ -29,12 +29,11 @@ authors:
   - "Zhiqiang Yuan"
   - "Ying Deng"
   - "Jiapei Zhang"
-  - "Jinchao Zhang *"
+  - "Jinchao Zhang"
   - "Jie Zhou"
 
 links:
   arXiv: https://arxiv.org/search/?query=Secret+Lies+in+Color+AI-Generated+Detection+Color+Distribution&searchtype=all&source=header
-  Code: https://github.com/zexiJia
   PDF: https://openaccess.thecvf.com/content/CVPR2025/papers/Jia_Secret_Lies_in_Color_Enhancing_AI-Generated_Images_Detection_with_Color_CVPR_2025_paper.pdf
   Supplementary: https://openaccess.thecvf.com/content/CVPR2025/supplemental/Jia_Secret_Lies_in_CVPR_2025_supplemental.pdf
   Data: https://huggingface.co/datasets/wechat-prcap/domain_dataset

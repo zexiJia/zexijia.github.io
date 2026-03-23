@@ -16,13 +16,12 @@ cover:          /assets/images/covers/cover2.jpg
 
 authors:
   - "Hongyan Fei"
-  - "Zexi Jia *"
+  - "Zexi Jia"
   - "Chuanwei Huang"
   - "Jinchao Zhang"
   - "Jie Zhou"
 
 links:
   arXiv: https://arxiv.org/abs/2602.06452
-  Code: https://github.com/zexiJia
   OpenReview: https://openreview.net/forum?id=KwXkLYmZvR
 ---

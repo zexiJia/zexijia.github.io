@@ -23,7 +23,7 @@ cover:          /assets/images/covers/mm1.png
 
 authors:
   - "Chuanwei Huang"
-  - "Zexi Jia *"
+  - "Zexi Jia"
   - "Hongyan Fei"
   - "Yeshuang Zhu"
   - "Zhiqiang Yuan"
@@ -32,6 +32,5 @@ authors:
 
 links:
   arXiv: https://arxiv.org/search/?query=ArtFRD+Fisher-Rao+mixture+metric+aesthetic+generative&searchtype=all&source=header
-  Code: https://github.com/zexiJia
   PDF: https://dl.acm.org/doi/pdf/10.1145/3746027.3755259
 ---

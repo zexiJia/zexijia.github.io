@@ -1,6 +1,6 @@
 ---
 title:          "Manifold-Optimal Guidance: A Unified Riemannian Control View of Diffusion Guidance"
-date:           2026-03-16 00:01:00 +0800
+date:           2026-12-31 23:59:00 +0800
 selected:       false
 
 pub:            "International Conference on Machine Learning (ICML)"
@@ -19,7 +19,7 @@ authors:
   - "Zexi Jia"
   - "Pengcheng Luo"
   - "Zhengyao Fang"
-  - "Jinchao Zhang *"
+  - "Jinchao Zhang"
   - "Jie Zhou"
 
 links:

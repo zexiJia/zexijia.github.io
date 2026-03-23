@@ -22,7 +22,7 @@ cover:          /assets/images/covers/iccv3.png
 
 authors:
   - "Chuanwei Huang"
-  - "Zexi Jia *"
+  - "Zexi Jia"
   - "Hongyan Fei"
   - "Yeshuang Zhu"
   - "Zhiqiang Yuan"
@@ -34,7 +34,6 @@ authors:
 
 links:
   arXiv: https://arxiv.org/search/?query=MCID+Multi-aspect+Copyright+Infringement+Generated+Images&searchtype=all&source=header
-  Code: https://github.com/zexiJia
   PDF: https://openaccess.thecvf.com/content/ICCV2025/papers/Huang_MCID_Multi-aspect_Copyright_Infringement_Detection_for_Generated_Images_ICCV_2025_paper.pdf
   Supplementary: https://openaccess.thecvf.com/content/ICCV2025/supplemental/Huang_MCID_Multi-aspect_Copyright_ICCV_2025_supplemental.pdf
   Poster: https://iccv.thecvf.com/virtual/2025/poster/486

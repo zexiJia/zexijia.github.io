@@ -21,5 +21,4 @@ authors:
 
 links:
   arXiv: https://arxiv.org/abs/2601.17697
-  Code: https://github.com/zexiJia
 ---

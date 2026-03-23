@@ -17,7 +17,7 @@ cover:          /assets/images/covers/cvpr.png
 
 authors:
   - "Zhengyao Fang"
-  - "Zexi Jia *"
+  - "Zexi Jia"
   - "Yijia Zhong"
   - "Pengcheng Luo"
   - "Jinchao Zhang"

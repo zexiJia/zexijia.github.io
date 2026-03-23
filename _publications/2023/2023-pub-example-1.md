@@ -23,7 +23,7 @@ cover:          /assets/images/covers/tip.png
 authors:
   - "Zexi Jia"
   - "Kaichao You"
-  - "Weihua He *"
+  - "Weihua He"
   - "Yang Tian"
   - "Yongxiang Feng"
   - "Yaoyuan Wang"

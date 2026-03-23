@@ -23,7 +23,7 @@ cover:          /assets/images/covers/icassp.png
 
 authors:
   - "Chuanwei Huang"
-  - "Zexi Jia *"
+  - "Zexi Jia"
   - "Hongyan Fei"
   - "Yeshuang Zhu"
   - "Zhiqiang Yuan"
@@ -34,6 +34,5 @@ authors:
 
 links:
   arXiv: https://arxiv.org/abs/2502.07323
-  Code: https://github.com/zexiJia
   PDF: https://arxiv.org/pdf/2502.07323
 ---

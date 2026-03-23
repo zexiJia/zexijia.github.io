@@ -29,12 +29,11 @@ authors:
   - "Zhiqiang Yuan"
   - "Ying Deng"
   - "Jiapei Zhang"
-  - "Jinchao Zhang *"
+  - "Jinchao Zhang"
   - "Jie Zhou"
 
 links:
   arXiv: https://arxiv.org/abs/2507.04699
-  Code: https://github.com/zexiJia
   PDF: https://openaccess.thecvf.com/content/ICCV2025/papers/Jia_A_Visual_Leap_in_CLIP_Compositionality_Reasoning_through_Generation_of_ICCV_2025_paper.pdf
   Supplementary: https://openaccess.thecvf.com/content/ICCV2025/supplemental/Jia_A_Visual_Leap_ICCV_2025_supplemental.pdf
 ---
