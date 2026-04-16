@@ -13,7 +13,7 @@ abstract: >-
   information. The method achieves efficient large-scale fingerprint retrieval
   with high accuracy.
 
-cover:          /assets/images/covers/ijcb_index.png
+cover:          /assets/images/covers/cover1.jpg
 
 authors:
   - "Song Wu"

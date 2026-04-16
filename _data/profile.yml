@@ -44,16 +44,6 @@ short_bio: >-
     Multimodal learning · Biometrics · Event-camera vision
   </p>
 
-stats:
-  - number: "22+"
-    label: "Publications"
-  - number: "16"
-    label: "First/Corresp."
-  - number: "16"
-    label: "Patents"
-  - number: "15+"
-    label: "Students Mentored"
-
 portrait_url: /assets/images/photos/photo.png
 
 education:

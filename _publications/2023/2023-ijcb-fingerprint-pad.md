@@ -13,7 +13,7 @@ abstract: >-
   and spoof samples. The approach improves detection accuracy and cross-material
   generalization.
 
-cover:          /assets/images/covers/ijcb_pad.png
+cover:          /assets/images/covers/cover3.jpg
 
 authors:
   - "Chuanwei Huang"

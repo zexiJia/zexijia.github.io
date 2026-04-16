@@ -13,7 +13,7 @@ abstract: >-
   consistency between concept extraction and generation, our method learns
   interpretable visual concepts without manual supervision.
 
-cover:          /assets/images/covers/eccv_cycle.png
+cover:          /assets/images/covers/cover1.jpg
 
 authors:
   - "Zexi Jia"

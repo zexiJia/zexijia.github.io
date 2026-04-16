@@ -13,7 +13,7 @@ abstract: >-
   artifacts introduced by different spoofing materials. The method improves
   generalization across unseen attack types and materials.
 
-cover:          /assets/images/covers/tifs_pad.png
+cover:          /assets/images/covers/cover2.jpg
 
 authors:
   - "Hongyan Fei"

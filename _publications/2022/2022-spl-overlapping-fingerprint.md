@@ -13,7 +13,7 @@ abstract: >-
   to assign each pixel to its corresponding fingerprint, enabling downstream
   recognition on previously inseparable overlapping prints.
 
-cover:          /assets/images/covers/spl_overlap.png
+cover:          /assets/images/covers/cover2.jpg
 
 authors:
   - "Zheng Wang"

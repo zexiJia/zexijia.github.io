@@ -14,7 +14,7 @@ abstract: >-
   through diffusion models, CoDA achieves superior fidelity while maintaining
   diversity, advancing the state of the art in face generation.
 
-cover:          /assets/images/covers/coda.png
+cover:          /assets/images/covers/cover2.jpg
 
 authors:
   - "Zexi Jia"

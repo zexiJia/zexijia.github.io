@@ -13,7 +13,7 @@ abstract: >-
   language understanding to provide natural, context-aware navigation guidance,
   obstacle detection, and environmental descriptions.
 
-cover:          /assets/images/covers/walkvlm.png
+cover:          /assets/images/covers/cover3.jpg
 
 authors:
   - "Zhiqiang Yuan"

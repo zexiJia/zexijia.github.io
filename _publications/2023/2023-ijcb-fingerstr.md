@@ -13,7 +13,7 @@ abstract: >-
   combines a segmentation network with a texture restoration module to
   simultaneously identify fingerprint regions and recover ridge details.
 
-cover:          /assets/images/covers/fingerstr.png
+cover:          /assets/images/covers/cover1.jpg
 
 authors:
   - "Zexi Jia"
