@@ -19,7 +19,7 @@ authors:
   - "Zexi Jia"
   - "Pengcheng Luo"
   - "Zhengyao Fang"
-  - "Jinchao Zhang"
+  - "Jinchao Zhang*"
   - "Jie Zhou"
 
 links:

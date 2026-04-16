@@ -23,7 +23,7 @@ authors:
   - "Peixiang Luo"
   - "Ying Deng"
   - "Xiaoyue Duan"
-  - "Jinchao Zhang"
+  - "Jinchao Zhang*"
 
 links:
   arXiv: https://arxiv.org/abs/2508.17714

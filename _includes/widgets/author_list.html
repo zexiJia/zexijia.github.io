@@ -4,12 +4,20 @@
     {%- assign raw = _key | strip -%}
     {%- assign last_char = raw | slice: -1, 1 -%}
     {%- assign last_2chars = raw | slice: -2, 2 -%}
+
+    {%- assign is_corresponding = false -%}
+    {%- assign is_equal = false -%}
+
     {%- if last_2chars == "*#" or last_2chars == "#*" -%}
         {%- assign key = raw | replace: "#*", "" | replace: "*#", "" | strip -%}
+        {%- assign is_corresponding = true -%}
+        {%- assign is_equal = true -%}
     {%- elsif last_char == "*" -%}
         {%- assign key = raw | split: "*" | first | strip -%}
+        {%- assign is_corresponding = true -%}
     {%- elsif last_char == "#" -%}
         {%- assign key = raw | split: "#" | first | strip -%}
+        {%- assign is_equal = true -%}
     {%- else -%}
         {%- assign key = raw -%}
     {%- endif -%}
@@ -28,11 +36,19 @@
         {%- assign display_name = name -%}
     {%- endif -%}
 
+    {%- capture suffix -%}
+        {%- if is_corresponding and is_equal -%}<sup>*#</sup>
+        {%- elsif is_corresponding -%}<sup>*</sup>
+        {%- elsif is_equal -%}<sup>#</sup>
+        {%- endif -%}
+    {%- endcapture -%}
+    {%- assign suffix = suffix | strip -%}
+
     {%- if info['url'] -%}
-        <a class="text-body" target="_blank" href="{{ info['url'] }}">{{ display_name }}</a>{%- if forloop.index < authors.size -%}, {% endif -%}
+        <a class="text-body" target="_blank" href="{{ info['url'] }}">{{ display_name }}</a>{{ suffix }}{%- if forloop.index < authors.size -%}, {% endif -%}
     {%- else -%}
         <span class="text-body">
-            {{ display_name }}{%- if forloop.index < authors.size -%}, {% endif -%}
+            {{ display_name }}{{ suffix }}{%- if forloop.index < authors.size -%}, {% endif -%}
         </span>
     {%- endif -%}
 

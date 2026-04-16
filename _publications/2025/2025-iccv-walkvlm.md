@@ -24,7 +24,7 @@ authors:
   - "Zexi Jia"
   - "Xiaoyue Duan"
   - "Jinchao Zhang"
-  - "Jie Zhou"
+  - "Jie Zhou*"
 
 links:
   arXiv: https://arxiv.org/abs/2404.01982

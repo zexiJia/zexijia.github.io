@@ -23,7 +23,7 @@ cover:          /assets/images/covers/mm1.png
 
 authors:
   - "Chuanwei Huang"
-  - "Zexi Jia"
+  - "Zexi Jia*"
   - "Hongyan Fei"
   - "Yeshuang Zhu"
   - "Zhiqiang Yuan"

@@ -18,7 +18,7 @@ cover:          /assets/images/covers/crow.png
 
 authors:
   - "Pengcheng Luo"
-  - "Zexi Jia"
+  - "Zexi Jia*"
   - "Yijia Zhong"
   - "Jinchao Zhang"
   - "Jie Zhou"

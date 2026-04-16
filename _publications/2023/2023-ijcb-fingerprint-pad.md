@@ -20,7 +20,7 @@ authors:
   - "Hongyan Fei"
   - "Zexi Jia"
   - "Song Wu"
-  - "Jufu Feng"
+  - "Jufu Feng*"
 
 links:
   IEEE Xplore: https://ieeexplore.ieee.org/

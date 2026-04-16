@@ -21,7 +21,7 @@ authors:
   - "Song Wu"
   - "Zheng Wang"
   - "Zexi Jia"
-  - "Jufu Feng"
+  - "Jufu Feng*"
 
 links:
   IEEE Xplore: https://ieeexplore.ieee.org/

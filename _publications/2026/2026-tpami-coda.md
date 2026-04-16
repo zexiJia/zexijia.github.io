@@ -18,8 +18,11 @@ cover:          /assets/images/covers/cover2.jpg
 
 authors:
   - "Zexi Jia"
-  - "Jinchao Zhang"
+  - "Zhiqiang Yuan"
+  - "Xiaoyue Duan"
+  - "Jinchao Zhang*"
   - "Jie Zhou"
+  - "Anil K. Jain"
 
 links:
   IEEE Xplore: https://ieeexplore.ieee.org/

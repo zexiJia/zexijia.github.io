@@ -38,6 +38,13 @@ short_bio: >-
     <strong style="color:#dc2626">I am actively seeking postdoctoral positions</strong> in
     trustworthy generative AI, generative model evaluation, and related areas.
     Feel free to reach out if you see a potential match!
+    <br/>
+    <a href="/assets/files/cv.pdf" target="_blank" rel="noopener"
+       style="display:inline-block; margin-top:0.4rem; padding:0.3rem 0.85rem;
+              background:#2563eb; color:#fff; border-radius:0.4rem;
+              font-size:0.88rem; font-weight:600; text-decoration:none;">
+      <i class="fas fa-file-alt" style="margin-right:0.3rem;"></i>Download CV
+    </a>
   </p>
   <p class="small text-muted mb-0">
     <strong>Interests:</strong> Computer vision · Generative models · Trustworthy AI ·

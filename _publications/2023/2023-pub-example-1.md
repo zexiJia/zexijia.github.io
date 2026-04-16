@@ -30,7 +30,7 @@ authors:
   - "Xu Jia"
   - "Yihang Lou"
   - "Jingyi Zhang"
-  - "Guoqi Li"
+  - "Guoqi Li*"
   - "Ziyang Zhang"
 
 links:

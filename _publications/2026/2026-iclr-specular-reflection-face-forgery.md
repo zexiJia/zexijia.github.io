@@ -16,7 +16,7 @@ cover:          /assets/images/covers/iclr.png
 
 authors:
   - "Hongyan Fei"
-  - "Zexi Jia"
+  - "Zexi Jia*"
   - "Chuanwei Huang"
   - "Jinchao Zhang"
   - "Jie Zhou"

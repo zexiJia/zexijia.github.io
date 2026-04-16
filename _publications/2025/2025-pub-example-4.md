@@ -18,7 +18,7 @@ abstract: >-
 
 cover:          /assets/images/covers/spl.png
 authors:
-  - "Zexi Jia"
+  - "Zexi Jia*"
   - "Chuanwei Huang"
 
 links:

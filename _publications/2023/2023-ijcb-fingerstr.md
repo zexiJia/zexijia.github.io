@@ -18,7 +18,7 @@ cover:          /assets/images/covers/cover1.jpg
 authors:
   - "Zexi Jia"
   - "Chuanwei Huang"
-  - "Jufu Feng"
+  - "Jufu Feng*"
 
 links:
   IEEE Xplore: https://ieeexplore.ieee.org/

@@ -23,13 +23,13 @@ cover:          /assets/images/covers/icassp.png
 
 authors:
   - "Chuanwei Huang"
-  - "Zexi Jia"
+  - "Zexi Jia*"
   - "Hongyan Fei"
   - "Yeshuang Zhu"
   - "Zhiqiang Yuan"
   - "Ying Deng"
   - "Jiapei Zhang"
-  - "Jinchao Zhang"
+  - "Jinchao Zhang*"
   - "Jie Zhou"
 
 links:

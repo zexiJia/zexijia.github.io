@@ -22,14 +22,14 @@ cover:          /assets/images/covers/iccv3.png
 
 authors:
   - "Chuanwei Huang"
-  - "Zexi Jia"
+  - "Zexi Jia*"
   - "Hongyan Fei"
   - "Yeshuang Zhu"
   - "Zhiqiang Yuan"
   - "Ying Deng"
   - "Jiapei Zhang"
   - "Xiaoyue Duan"
-  - "Jinchao Zhang"
+  - "Jinchao Zhang*"
   - "Jie Zhou"
 
 links:
