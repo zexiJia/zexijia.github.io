@@ -1,7 +1,7 @@
 ---
 title:          "Event-Based Semantic Segmentation With Posterior Attention"
 date:           2023-04-01 00:01:00 +0800
-selected:       false
+selected:       true
 
 pub:            "IEEE Transactions on Image Processing (TIP)"
 pub_date:       "2023"

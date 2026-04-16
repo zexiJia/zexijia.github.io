@@ -1,7 +1,7 @@
 ---
 title:          "CoDA: Convergent Diffusion Approximation for Generating Realistic Faces"
 date:           2026-01-15 00:01:00 +0800
-selected:       true
+selected:       false
 
 pub:            "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
 pub_date:       "2026"

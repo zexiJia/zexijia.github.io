@@ -1,7 +1,7 @@
 ---
 title:          "Too Vivid to Be Real? Benchmarking and Calibrating Generative Color Fidelity"
 date:           2026-06-05 00:01:00 +0800
-selected:       false
+selected:       true
 
 pub:            "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
 pub_date:       "2026"
