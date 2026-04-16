@@ -1,7 +1,7 @@
 ---
 title:          "A Visual Leap in CLIP Compositionality Reasoning through Generation of Counterfactual Sets"
 date:           2025-10-20 00:02:00 +0800
-selected:       false
+selected:       true
 
 pub:            "IEEE/CVF International Conference on Computer Vision (ICCV)"
 pub_date:       "2025"

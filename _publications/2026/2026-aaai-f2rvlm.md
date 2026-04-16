@@ -5,7 +5,7 @@ selected:       false
 
 pub:            "AAAI Conference on Artificial Intelligence (AAAI)"
 pub_date:       "2026"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-info">To appear</span>'
+pub_last:       ''
 
 abstract: >-
   We introduce fine-grained fragment retrieval in long multi-modal dialogues and train

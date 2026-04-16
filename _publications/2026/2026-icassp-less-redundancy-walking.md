@@ -5,7 +5,7 @@ selected:       false
 
 pub:            "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
 pub_date:       "2026"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-info">To appear</span>'
+pub_last:       ''
 
 abstract: >-
   We reduce verbose outputs and redundant reminders in VLM-based walking assistants via

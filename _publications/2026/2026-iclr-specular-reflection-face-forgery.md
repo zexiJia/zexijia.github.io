@@ -1,11 +1,11 @@
 ---
 title:          "Exploring Specular Reflection Inconsistency for Generalizable Face Forgery Detection"
 date:           2026-04-18 00:01:00 +0800
-selected:       false
+selected:       true
 
 pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2026"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-info">To appear</span>'
+pub_last:       ''
 
 abstract: >-
   We exploit physical inconsistencies in facial specular highlights under the Phong model,

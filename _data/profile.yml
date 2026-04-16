@@ -17,30 +17,42 @@ github: zexiJia
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I work on <strong>trustworthy generative vision</strong>, with broader interests in
-    multimodal foundation models and visual representation learning. My research develops
-    principled methods for making generative visual systems more reliable, measurable, and
-    controllable—including media authenticity and copyright, generative model evaluation,
-    and large-scale training and optimization. I aim to connect ideas from geometry,
-    statistics, and visual structure to methods that advance both scientific understanding
-    and real-world generative systems.
+    I study <strong>trustworthy visual intelligence</strong>: how to make generative visual
+    models <em>detectable</em> when needed, <em>measurable</em> during development, and more
+    <em>realistic and controllable</em> at inference time. My research connects ideas from
+    geometry, statistics, and visual structure to principled methods that advance both
+    scientific understanding and real-world generative systems.
   </p>
   <p>
     I am a Senior Researcher at
     <a href="https://www.tencent.com/" target="_blank" rel="noopener">Tencent WeChat AI</a>,
-    where I lead and contribute to multimodal and generative initiatives (including large-scale
-    image generation and alignment). I received my Ph.D. in Intelligent Science (Machine Vision)
-    from <a href="https://www.pku.edu.cn/" target="_blank" rel="noopener">Peking University</a>
+    where I lead research on AIGC safety, generative model evaluation, and large-scale
+    image generation. I received my Ph.D. from
+    <a href="https://www.pku.edu.cn/" target="_blank" rel="noopener">Peking University</a>
     (advisor: Prof. Jufu Feng) and my M.Sc. and B.Eng. from
-    <a href="https://www.fudan.edu.cn/" target="_blank" rel="noopener">Fudan University</a>
-    (M.Sc. advisor: Prof. Xiangdong Zhou). I serve as a reviewer for major vision and ML venues
-    (CVPR, ICCV, ECCV, ICLR, ICML, NeurIPS, AAAI, ACM MM; IEEE TPAMI, TIP, TIFS) and have mentored
-    15+ students and interns on generative models, AIGC safety, and multimodal learning.
+    <a href="https://www.fudan.edu.cn/" target="_blank" rel="noopener">Fudan University</a>.
+    I serve as a reviewer for major venues including CVPR, ICCV, ECCV, ICLR, ICML, NeurIPS,
+    AAAI, ACM MM, and IEEE TPAMI/TIP/TIFS.
+  </p>
+  <p>
+    <strong style="color:#dc2626">I am actively seeking postdoctoral positions</strong> in
+    trustworthy generative AI, generative model evaluation, and related areas.
+    Feel free to reach out if you see a potential match!
   </p>
   <p class="small text-muted mb-0">
-    <strong>Interests:</strong> Computer vision; generative models; trustworthy AI; multimodal learning;
-    biometrics; event-camera vision.
+    <strong>Interests:</strong> Computer vision · Generative models · Trustworthy AI ·
+    Multimodal learning · Biometrics · Event-camera vision
   </p>
+
+stats:
+  - number: "22+"
+    label: "Publications"
+  - number: "16"
+    label: "First/Corresp."
+  - number: "16"
+    label: "Patents"
+  - number: "15+"
+    label: "Students Mentored"
 
 portrait_url: /assets/images/photos/photo.png
 

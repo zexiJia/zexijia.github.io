@@ -1,7 +1,7 @@
 ---
 title:          "From Imitation to Innovation: The Emergence of AI's Unique Artistic Styles and the Challenge of Copyright Protection"
 date:           2025-10-01 00:01:00 +0800
-selected:       false
+selected:       true
 
 pub:            "IEEE/CVF International Conference on Computer Vision (ICCV)"
 pub_date:       "2025"

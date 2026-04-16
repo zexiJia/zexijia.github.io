@@ -2,102 +2,298 @@
 
 :root {
     --site-accent: #2563eb;
-    --site-accent-soft: rgba(37, 99, 235, 0.12);
-    --site-card-shadow: 0 0.35rem 1.25rem rgba(15, 23, 42, 0.06);
+    --site-accent-soft: rgba(37, 99, 235, 0.08);
+    --site-accent-hover: #1d4ed8;
+    --site-card-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 4px 16px rgba(15, 23, 42, 0.06);
+    --site-card-shadow-hover: 0 4px 24px rgba(37, 99, 235, 0.10), 0 1px 3px rgba(15, 23, 42, 0.04);
     --site-card-border: rgba(15, 23, 42, 0.06);
+    --site-gradient-start: #f8faff;
+    --site-gradient-mid: #f0f4fb;
+    --site-gradient-end: #f7f8fc;
+    --site-text-primary: #0f172a;
+    --site-text-secondary: #475569;
+    --site-text-muted: #94a3b8;
 }
 
+/* ============================
+   Body & Typography
+   ============================ */
 .site-body {
     font-family: "Source Sans 3", "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
-    background: linear-gradient(165deg, #f0f4fb 0%, #eef2f9 42%, #f7f8fc 100%);
+    background: linear-gradient(165deg, var(--site-gradient-start) 0%, var(--site-gradient-mid) 42%, var(--site-gradient-end) 100%);
     background-attachment: fixed;
-    color: #1e293b;
+    color: var(--site-text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
     letter-spacing: -0.02em;
-    color: #0f172a;
+    color: var(--site-text-primary);
 }
 
+/* ============================
+   Navbar
+   ============================ */
 .site-navbar {
-    background: linear-gradient(120deg, #0f172a 0%, #1e293b 55%, #243b53 100%) !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-    backdrop-filter: saturate(140%) blur(8px);
+    background: linear-gradient(120deg, #0f172a 0%, #1e293b 55%, #1e3a5f 100%) !important;
+    border-bottom: none;
+    backdrop-filter: saturate(140%) blur(12px);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.12);
 }
 
 .site-navbar .navbar-brand {
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
+    font-size: 1.15rem;
 }
 
 .site-navbar .nav-link {
-    transition: color 0.15s ease, opacity 0.15s ease;
+    transition: color 0.2s ease, opacity 0.2s ease;
+    font-weight: 500;
+    letter-spacing: 0.01em;
 }
 
 .site-navbar .nav-link:hover {
     color: #fff !important;
-    opacity: 0.92;
+    opacity: 1;
 }
 
+.navbar {
+    opacity: 1;
+}
+
+/* ============================
+   Cards
+   ============================ */
 .card {
-    border-radius: 0.85rem !important;
+    border-radius: 1rem !important;
     border: 1px solid var(--site-card-border) !important;
     box-shadow: var(--site-card-shadow) !important;
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: var(--site-card-shadow-hover) !important;
+    transform: translateY(-1px);
 }
 
 .card.border-0 {
     border: 1px solid var(--site-card-border) !important;
 }
 
+.card-img-overlay {
+    border-radius: 1rem !important;
+}
+
+/* ============================
+   Links
+   ============================ */
 a {
     color: var(--site-accent);
+    transition: color 0.15s ease;
 }
 
 a:hover {
-    color: #1d4ed8;
+    color: var(--site-accent-hover);
+    text-decoration: none;
 }
 
 .text-profile-bio a {
     font-weight: 500;
+    border-bottom: 1px solid rgba(37, 99, 235, 0.2);
+    text-decoration: none;
 }
 
-.card-img-overlay {
-    border-radius: 0.85rem !important;
+.text-profile-bio a:hover {
+    border-bottom-color: var(--site-accent);
 }
 
+/* ============================
+   Rounded Elements
+   ============================ */
 .rounded-xl {
-    border-radius: 0.85rem !important;
+    border-radius: 1rem !important;
     border: 1px solid var(--site-card-border);
 }
 
 .rounded-xl-bottom {
-    border-bottom-right-radius: 0.85rem !important;
-    border-bottom-left-radius: 0.85rem !important;
+    border-bottom-right-radius: 1rem !important;
+    border-bottom-left-radius: 1rem !important;
 }
 
 .rounded-xl-top {
-    border-top-left-radius: 0.85rem !important;
-    border-top-right-radius: 0.85rem !important;
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
 }
 
+/* ============================
+   Profile
+   ============================ */
 .text-profile-position {
     font-weight: 500;
-    color: #475569;
+    color: var(--site-text-secondary);
 }
 
 .text-profile-bio {
     font-weight: 400;
-    line-height: 1.65;
+    line-height: 1.72;
+    color: var(--site-text-primary);
 }
 
-.navbar {
-    opacity: 0.98;
+.email-text {
+    font-family: "Source Code Pro", ui-monospace, monospace;
+    font-size: 0.85rem;
+    color: var(--site-text-secondary);
 }
 
+/* ============================
+   Stats Bar (new)
+   ============================ */
+.stats-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    margin: 0.75rem 0 0.25rem;
+    border-top: 1px solid rgba(15, 23, 42, 0.06);
+    border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.stats-bar .stat-item {
+    text-align: center;
+    flex: 1;
+}
+
+.stats-bar .stat-number {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--site-accent);
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+    display: block;
+}
+
+.stats-bar .stat-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--site-text-muted);
+    font-weight: 600;
+    display: block;
+    margin-top: 2px;
+}
+
+/* ============================
+   Research Highlights (new)
+   ============================ */
+.research-highlights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.research-highlight-item {
+    padding: 1rem 1.15rem;
+    border-radius: 0.85rem;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+}
+
+.research-highlight-item:hover {
+    border-color: rgba(37, 99, 235, 0.15);
+    background: var(--site-accent-soft);
+}
+
+.research-highlight-item .rh-icon {
+    font-size: 1.35rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.research-highlight-item .rh-title {
+    font-weight: 700;
+    font-size: 0.92rem;
+    color: var(--site-text-primary);
+    margin-bottom: 0.3rem;
+    line-height: 1.3;
+}
+
+.research-highlight-item .rh-desc {
+    font-size: 0.82rem;
+    color: var(--site-text-secondary);
+    line-height: 1.55;
+}
+
+@media (max-width: 767.98px) {
+    .research-highlights {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ============================
+   Postdoc Banner (new)
+   ============================ */
+.postdoc-banner {
+    background: linear-gradient(135deg, #eff6ff 0%, #f0f4ff 50%, #faf5ff 100%);
+    border: 1px solid rgba(37, 99, 235, 0.12);
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.postdoc-banner .banner-icon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+.postdoc-banner .banner-text {
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: #1e40af;
+}
+
+/* ============================
+   Sidebar Profile Card Accent
+   ============================ */
+.row.sticky-top > .col > .card {
+    position: relative;
+    overflow: hidden;
+}
+
+.row.sticky-top > .col > .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #2563eb 0%, #6366f1 50%, #8b5cf6 100%);
+    opacity: 0.95;
+}
+
+/* Social icons in sidebar */
+.row.sticky-top .card-body .h4 a {
+    color: var(--site-text-secondary);
+    transition: color 0.2s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.row.sticky-top .card-body .h4 a:hover {
+    color: var(--site-accent);
+    transform: scale(1.15);
+}
+
+/* ============================
+   Publication Items
+   ============================ */
 .inline-badge {
     height: 16px;
     vertical-align: -10%;
@@ -118,6 +314,49 @@ a:hover {
     min-height: 100px;
 }
 
+.badge-publication {
+    font-size: 100%;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.abstract-links a {
+    font-weight: 500;
+    padding: 0.1rem 0.15rem;
+    border-radius: 0.2rem;
+    transition: background 0.15s ease;
+}
+
+.abstract-links a:hover {
+    background: var(--site-accent-soft);
+}
+
+.my-3.p-0.bg-white.shadow-sm.rounded-xl,
+.my-0.p-0.bg-white.shadow-sm.rounded-xl {
+    box-shadow: var(--site-card-shadow) !important;
+    border: 1px solid var(--site-card-border) !important;
+}
+
+/* Publication item row hover */
+.row.no-gutters.border-bottom {
+    transition: background-color 0.2s ease;
+}
+
+.row.no-gutters.border-bottom:hover {
+    background-color: rgba(37, 99, 235, 0.02);
+}
+
+/* ============================
+   News Card
+   ============================ */
+.bg-white.shadow-sm.rounded-xl h6.border-bottom {
+    font-weight: 700;
+    color: var(--site-text-primary);
+}
+
+/* ============================
+   Lazy Loading
+   ============================ */
 img.lazy {
     background-image: url('images/loading.gif');
     background-repeat: no-repeat;
@@ -134,37 +373,62 @@ div.lazy {
     min-height: 80px;
 }
 
-.badge-publication {
-    font-size: 100%;
+/* ============================
+   Year Navigation (Publications page)
+   ============================ */
+#navbar-year .nav-link {
+    border-radius: 0.5rem;
+    padding: 0.35rem 0.75rem;
+    font-weight: 600;
+    font-size: 0.88rem;
+    transition: all 0.15s ease;
 }
 
-.email-text {
-    font-family: "Source Code Pro", ui-monospace, monospace;
-    font-size: 0.9rem;
+#navbar-year .nav-link:hover {
+    background: var(--site-accent-soft);
 }
 
-.my-3.p-0.bg-white.shadow-sm.rounded-xl {
-    box-shadow: var(--site-card-shadow) !important;
-    border: 1px solid var(--site-card-border) !important;
+#navbar-year .nav-link.active {
+    background: var(--site-accent) !important;
+    color: #fff !important;
 }
 
-.abstract-links a {
-    font-weight: 500;
+/* ============================
+   Footer
+   ============================ */
+.site-footer {
+    border-top: 1px solid rgba(15, 23, 42, 0.06);
+    margin-top: 3rem;
 }
 
-/* Sidebar profile card accent */
-.row.sticky-top > .col > .card {
-    position: relative;
-    overflow: hidden;
+/* ============================
+   Responsive tweaks
+   ============================ */
+@media (max-width: 767.98px) {
+    .stats-bar {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    .stats-bar .stat-item {
+        flex: 0 0 50%;
+        margin-bottom: 0.25rem;
+    }
+    .stats-bar .stat-number {
+        font-size: 1.25rem;
+    }
 }
 
-.row.sticky-top > .col > .card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, #2563eb, #6366f1, #7c3aed);
-    opacity: 0.92;
+/* ============================
+   Smooth scroll
+   ============================ */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ============================
+   Selection highlight
+   ============================ */
+::selection {
+    background: rgba(37, 99, 235, 0.15);
+    color: var(--site-text-primary);
 }

@@ -5,7 +5,7 @@ selected:       false
 
 pub:            "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
 pub_date:       "2026"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-info">To appear</span>'
+pub_last:       ''
 
 abstract: >-
   We propose GROW, a training-free diffusion watermarking method that grows the mark

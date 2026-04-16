@@ -1,7 +1,7 @@
 ---
 title:          "Manifold-Optimal Guidance: A Unified Riemannian Control View of Diffusion Guidance"
 date:           2026-12-31 23:59:00 +0800
-selected:       false
+selected:       true
 
 pub:            "International Conference on Machine Learning (ICML)"
 pub_date:       "2026"

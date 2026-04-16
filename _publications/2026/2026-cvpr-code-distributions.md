@@ -5,7 +5,7 @@ selected:       true
 
 pub:            "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
 pub_date:       "2026"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-info">To appear</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">Highlight</span>'
 
 abstract: >-
   We propose evaluation metrics based on one-dimensional distributions of discrete visual
