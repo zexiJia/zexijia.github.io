@@ -1,7 +1,7 @@
 ---
 title:          "Exploring Specular Reflection Inconsistency for Generalizable Face Forgery Detection"
 date:           2026-04-18 00:01:00 +0800
-selected:       true
+selected:       false
 
 pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2026"

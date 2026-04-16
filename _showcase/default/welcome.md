@@ -9,7 +9,7 @@ date: 2024-01-12 00:01:00 +0800
     <hr />
     <p>
         Beyond research papers and code, I collect moments of light — 
-        landscapes, cities, quiet mornings, and the beauty that lives between lines of work.
-        Here are some of my favorite shots from travels and daily wanderings.
+        landscapes that take your breath away, cats being cats, and dogs being ridiculously happy.
+        Here are some of my favorites.
     </p>
 </div>
